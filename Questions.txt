@@ -1,0 +1,21 @@
+heat rash
+	- Do you live in a an area with tropical climate?
+ 	- [U] Are your rashes in sweat-prone areas? (e.g. groin , armpits)
+	- Do you often wear tight-fitting clothing around these areas?
+shingles
+	- [U] Does the rash cause pain, burning sensation, numbness, tingling?
+	- Does it itch?
+	- Do you have a fever?
+	- Do you have a headache?
+	- Are you experiencing fatigue?
+common rash/itch/irritation,insect bite
+	- [U] Have you been bitten by, or stung by, insects such as mosquitoes, bees, or fire ants?
+	- Are you experiencing fever, Vomitting/nausea? (answer should be no)
+acne
+	- Are the rashes in your face, forehead, chest, or upper back?
+	- [U] Do you have oily skin, causing whiteheads/blackheads/pimples?
+atopic dermatitis (eczema)
+	- [U] Have the rashes been around for a long time? 
+	- Are your rashes red and itchy?
+	- Does it occur in large patches of skin?
+	- Is it thickened, cracked, or scaly?
