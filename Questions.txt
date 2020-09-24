@@ -4,6 +4,7 @@ heat rash
 	- Do you often wear tight-fitting clothing around these areas?
 shingles
 	- [U] Does the rash cause pain, burning sensation, numbness, tingling?
+	- [U] Does it only involve a small section of your skin?
 	- Does it itch?
 	- Do you have a fever?
 	- Do you have a headache?
