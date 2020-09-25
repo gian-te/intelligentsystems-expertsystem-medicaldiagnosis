@@ -20,3 +20,47 @@ atopic dermatitis (eczema)
 	- Are your rashes red and itchy?
 	- Does it occur in large patches of skin?
 	- Is it thickened, cracked, or scaly?
+measles
+	- [U] Do you have tiny white spots inside the mouth (Koplik spots)?
+	- [U] Are there small raised bumps with fluid on top of red spots?
+	- Do you have flat red itchy spots on your body? 
+	- Do you have fever?
+	- Do you have cough?
+	- Are the eyes turning red?
+Chickenpox
+	- [U] Do you have raised red bumps?
+	- Do you have fever?
+	- Do you have headache?
+	- Do you have flat red itchy spots on your body? 
+	- Do the spots become itchy blisters?
+Allergy to food or medicine
+	- [U] Do you have itchy raised welts in your skin (hives)?
+	- [U] Does you face, mouth, throat swell? 
+	- Do you vomit?
+	- Do you have itchy or watery eyes?
+	- Do you have flat red itchy spots on your body? 
+	- Do you have dizziness?
+Dengue Rashes
+	- [U] Do you bleed from the nose or gums?
+	- Do you have flat red spots on your body? 
+	- Do you have fever?
+	- Do you vomit?
+	- Do you have headache?
+COVID19 Rash
+	- [U] Do you have purple discoloration on fingers or toes (chilblain)?
+	- [U] Do you have fishnet red-blue pattern on the skin? 
+	- [U] Are you losing hair?
+	- Do you have flat red itchy spots on your body? 
+	- Are the eyes turning red?
+
+
+References:
+https://www.cdc.gov/measles/symptoms/signs-symptoms.html#:~:text=Measles%20symptoms%20appear%207%20to,days%20after%20the%20first%20symptoms.
+https://www.cdc.gov/chickenpox/about/symptoms.html
+https://mapleleafmedical.com.au/blog/2019/9/20/chickenpox-vs-measles-whats-the-difference#:~:text=The%20chickenpox%20rash%20starts%20with,bumps%20may%20sometimes%20be%20present.
+https://www.healthline.com/health/hives#TOC_TITLE_HDR_1
+https://www.healthline.com/health/food-allergy-rash#symptoms
+https://www.nhs.uk/conditions/food-allergy/symptoms/
+https://www.cdc.gov/dengue/symptoms/index.html
+https://medlineplus.gov/ency/article/001374.htm#:~:text=Dengue%20fever%20begins%20with%20a,appears%20later%20in%20the%20disease.
+https://theconversation.com/8-ways-the-coronavirus-can-affect-your-skin-from-covid-toes-to-rashes-and-hair-loss-144483
