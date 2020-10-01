@@ -95,14 +95,20 @@ check_symptoms(Name, T) :-
     write(D),nl,
     read(Answer),
     (Answer = 'y' -> S = symptom(Name, H), asserta(S),
-                     check_symptoms(Name,T1), !;
-     Answer = 'n' -> check_symptoms(Name, T1))).
-/*
- * MISSING ITEMS
- * 1. Confirmation if there's already a matching disease, so no need to
- * traverse all symptoms.
- * 2. Completion of knowledge base
-*/
+                     check_disease(Name,T1), !;
+     Answer = 'n' -> check_disease(Name, T1))).
+
+check_disease(Name, T) :-
+    is_empty(T), !,
+    disp_disease(Name) ;
+    check_symptoms(Name, T).
+
+is_empty(List):- not(member(_,List)).
+
+disp_disease(Name) :-
+    findall([Name, X], hypothesis(Name, X), L),
+    write("Diagnosis for "), write(Name), nl,
+    write(L).
 
 hypothesis(X, measles) :-
     symptom(X, fever),
@@ -114,7 +120,7 @@ hypothesis(X, chickenpox) :-
     symptom(X, fever),
     symptom(X, blisters),
     symptom(X, itch),
-    symptom(X, headache).   
+    symptom(X, headache).
 
 hypothesis(X, allergy) :-
     symptom(X, red),
@@ -148,20 +154,20 @@ hypothesis(X, heat_rash):-
 hypothesis(X, shingles):-
     symptom(X, painful),
     symptom(X, small_section_only),
-    symptom(X, itch),  
+    symptom(X, itch),
     symptom(X, fever),
     symptom(X, fatigued).
 
 hypothesis(X, common_rash_insect_bite):-
-    symptom(X, bitten).  
-    
+    symptom(X, bitten).
+
 hypothesis(X, acne):-
     symptom(X, face_forehead_chest_back),
-    symptom(X, oily).  
-    
+    symptom(X, oily).
+
 hypothesis(X, eczema):-
     symptom(X, chronic),
     symptom(X, large_section),
     symptom(X, itch),
     symptom(X, cracked),
-    symptom(X, red).  
+    symptom(X, red).
